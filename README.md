@@ -8,6 +8,7 @@ xml:http://host:prot/teams.xml或http://host:prot/teams
 hateoas:http://host:prot/teams/1(id)
 
 匹配的URL格式和支持的文件
+
  "{[/{repository}/{id}],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}"
 
  "{[/{repository}/{id}],methods=[PUT],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}"
